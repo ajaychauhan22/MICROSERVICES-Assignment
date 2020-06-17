@@ -25,4 +25,9 @@ public class UserOrderController {
 		LOGGER.debug("New request for userid- {}", userId);
 		return userOrderService.findUserOrderByUserId(userId);
 	}
+	
+	@GetMapping("/test")
+	public String test() {
+		return "App is running...";
+	}
 }

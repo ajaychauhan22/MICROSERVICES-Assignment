@@ -13,7 +13,7 @@ data:
     management.endpoint.restart.enabled = true
     server.compression.enabled=true
     
-    external.url.service.user=http://127.0.0.1:9091/users
-    external.url.service.order=http://127.0.0.1:19091/orders
+    external.url.service.user=http://10.92.12.178:9091/users
+    external.url.service.order=http://10.92.1.105:19091/orders
 
 

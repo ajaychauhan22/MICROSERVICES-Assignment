@@ -15,7 +15,7 @@ public class TestController {
 
 	@GetMapping("/{message}")
 	public String toUpperCase(@PathVariable("message") String message) {
-		LOGGER.debug("Message is {}", message);
+		LOGGER.debug("Orignal message is {}", message);
 		return message.toUpperCase();
 	}
 
